@@ -2,7 +2,11 @@
 version: "3"
 services:
   coursematerial:
-    image: devopsdockeruh/coursepage
+    image: ndkv9/coursepage
+    build:
+      # add build step to the docker hub
+      context: ./
+      dockerfile: Dockerfile
     ports:
       - 4000:80
     container_name: coursematerial
