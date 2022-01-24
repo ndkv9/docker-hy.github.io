@@ -11,5 +11,5 @@ services:
     environment:
       - WATCHTOWER_POLL_INTERVAL=60 # Poll every 60 seconds
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock #link local docker socket with container socket
     container_name: watchtower
