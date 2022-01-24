@@ -13,3 +13,5 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock #link local docker socket with container socket
     container_name: watchtower
+
+# remember to log out, then log in from the command line to your docker hub account
