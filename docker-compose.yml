@@ -1,5 +1,5 @@
 # orchestra with docker-compose
-version: "3"
+version: "3.8"
 services:
   coursematerial:
     image: ndkv9/coursepage
